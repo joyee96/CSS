@@ -1,0 +1,131 @@
+<head>
+    <title>Jo Yee Cheah</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    </div>
+
+    <!--Side navigation-->
+    <div class="sidenav">
+
+        <div class="image1">
+            <img src="https://scontent.fkul15-1.fna.fbcdn.net/v/t1.0-9/121414576_1018497988635014_2461888575401385548_o.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=tAQ1mWvUuwQAX_GSUch&_nc_ht=scontent.fkul15-1.fna&oh=2a77ff6d6b28d07f3fadcbac1a50a511&oe=5FAEDC29"
+                width="210" height="210" />
+        </div>
+
+
+        <a href="#">About</a><br>
+        <p>
+            <a href="mailto:joyeezoey@gmail.com">Contact</a>
+    
+        <p>Social Media <br>
+            <a href="https://twitter.com/jodecaff?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+                data-show-count="false">Follow @jodecaff</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+
+        </p>
+
+
+    </div>
+
+
+    </div>
+
+    <!-- Page Content -->
+    <div class="main">
+
+        <div class="box1">
+
+
+            I used to run a blog about lessons in my daily life called <a href="http://de-caff.blogspot.com/"> Something
+                Unsual</a>. This was a space where I would observe and write about people in my life.
+
+            I also write and compose music since I was 10 years old, here you can find some of the recordings from <a
+                href="https://soundcloud.com/joyeehttps://soundcloud.com/joyee"> my Soundcloud</a>.
+        </div>
+
+        <div class="box2">
+
+            <h3>Milestones</h3>
+            <ul>
+                <li> Black belt in Taekwondo at the age of 12. Currently rank Dan 3.
+                <li> Obtained Full-Merit Scolarship for the rest of my degree. </li>
+                <li> Attended only one interview and succesfully comolpleted my internship at <a
+                        href="http://flexiroam.com/">
+                        Flexiroam</a>
+                    <div class=""></div>
+                <li>Became Financially independant</li>
+                <li> Succesfully recruited and build a team of AI Engineers for a AI startup called <a
+                        href="https://wiseai.tech/">Wise AI</a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="box3">
+            <h3><i>Introduction</i></h3>
+
+            <dl>
+                <dt> <i>Background</i>
+
+                <dd> Bubbly consultant who enjoys communicating and providing solutions to clients
+                    Inquisitive, forward thinking and resourceful.
+                    <ul>
+                        <li>Generate leads and successfully turn them into clients</li>
+                        <li>Meet potential clients, gather requirements, analyze information to come up with solutions and provide market insights</li>
+                        <li>Research and aware of latest technologies used
+                        <li> Convince and persuade both clients and candidates</li>
+                        <li> Negotiate on contracts successfully</li>
+                        <li> Coached people on improving communication and interviewing skills </li>
+                        <li> Build a sustainable relationship with clients and candidates</li>
+                    </ul>
+                    <p>
+        </div>
+
+
+    </div>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</div>
+
+</html>
